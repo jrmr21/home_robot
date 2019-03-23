@@ -20,6 +20,12 @@ all :
 	mbed compile				# set your compilator: "mbed toolchain GCC_ARM" (for example)
 						# go to edit :x
 						#
+upload_off :
+	sudo openocd -f $(INTERFACE) -f $(TARGET) \
+	-c " init " \
+	-c " reset init " \
+	-c " halt " \
+	-c "program mbed_off.bin reset exit 0x08000000"
 
 upload : 
 	sudo openocd -f $(INTERFACE)  -f $(TARGET) \

@@ -1,5 +1,9 @@
 #include "header/core_headers.h"
 
+PwmOut MotorD0(D0);
+PwmOut MotorD1(D1);
+
+
 void	 MotorD_init(int time)
 {
     MotorD0.period_us(time);      //  .5s  default deltaTime PWM
