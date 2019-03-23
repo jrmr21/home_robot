@@ -1,4 +1,4 @@
-BUILD/NUCLEO_F103RB/GCC_ARM/src/motor.o: src/motor.cpp \
+BUILD/NUCLEO_F103RB/GCC_ARM/src/main.o: src/main.cpp \
  BUILD/NUCLEO_F103RB/GCC_ARM/mbed_config.h src/header/core_headers.h \
  mbed-os/mbed.h mbed-os/platform/mbed_version.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \

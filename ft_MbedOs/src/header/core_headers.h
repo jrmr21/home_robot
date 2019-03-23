@@ -2,6 +2,7 @@
 #define CORE_HEADERS_H__
 
 #include "mbed.h"
+#include "rtos.h" 
 
 //**********	pinout		********
 
@@ -13,6 +14,15 @@
 
 #define SERVO_CAM1	PA_8
 #define SERVO_CAM2	PB_1
+
+
+
+//**********	task.cpp	*********
+
+void    tsk_blink(void);
+
+
+
 
 
 //**********	motor.cpp	*********
