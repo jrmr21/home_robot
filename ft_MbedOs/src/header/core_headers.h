@@ -20,7 +20,7 @@
 //**********	task.cpp	*********
 
 void    tsk_blink(void);
-
+void	tsk_cam(Serial *pc);
 
 
 
@@ -36,5 +36,12 @@ void	MotorD_avant(int vitesse);
 void	MotorD_arriere(int vitesse);
 void	MotorD_stop(void);
 
+
+
+//**********	tools.cpp	*********
+
+int	mapping(float x, int in_min, int in_max, int out_min, int out_max);
+void	croissant(float *tableau );
+float	moyenne(float *tableau );
 
 #endif
