@@ -76,12 +76,12 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/components/wifi/esp8266-driver/ESP8266Interf
  mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_poll.h \
  mbed-os/platform/NonCopyable.h mbed-os/platform/mbed_debug.h \
  mbed-os/drivers/SerialBase.h mbed-os/platform/Callback.h \
- mbed-os/hal/serial_api.h mbed-os/hal/pinmap.h mbed-os/hal/buffer.h \
- mbed-os/hal/dma_api.h mbed-os/platform/CThunk.h \
- mbed-os/platform/CThunkBase.h mbed-os/drivers/InterruptIn.h \
- mbed-os/hal/gpio_api.h mbed-os/hal/gpio_irq_api.h \
- mbed-os/platform/mbed_critical.h mbed-os/platform/PlatformMutex.h \
- mbed-os/rtos/Mutex.h mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
+ mbed-os/hal/serial_api.h mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
+ mbed-os/platform/CThunk.h mbed-os/platform/CThunkBase.h \
+ mbed-os/drivers/InterruptIn.h mbed-os/hal/gpio_api.h \
+ mbed-os/hal/gpio_irq_api.h mbed-os/platform/mbed_critical.h \
+ mbed-os/platform/PlatformMutex.h mbed-os/rtos/Mutex.h \
+ mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos1_types.h \
  mbed-os/rtos/TARGET_CORTEX/rtx4/cmsis_os.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h \
@@ -93,8 +93,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/components/wifi/esp8266-driver/ESP8266Interf
  mbed-os/features/netsocket/WiFiAccessPoint.h \
  mbed-os/features/netsocket/nsapi_types.h mbed-os/platform/ATCmdParser.h \
  mbed-os/platform/NonCopyable.h mbed-os/platform/FileHandle.h \
- mbed-os/platform/mbed_error.h mbed-os/rtos/ConditionVariable.h \
- mbed-os/rtos/TARGET_CORTEX/rtx4/cmsis_os.h mbed-os/rtos/Semaphore.h \
+ mbed-os/platform/mbed_error.h \
  mbed-os/components/wifi/esp8266-driver/ESP8266Interface.h \
  mbed-os/drivers/DigitalOut.h \
  mbed-os/components/wifi/esp8266-driver/ESP8266/ESP8266.h \
@@ -111,6 +110,9 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/components/wifi/esp8266-driver/ESP8266Interf
  mbed-os/features/netsocket/SocketAddress.h \
  mbed-os/features/netsocket/WiFiInterface.h \
  mbed-os/features/netsocket/WiFiAccessPoint.h \
+ mbed-os/rtos/ConditionVariable.h \
+ mbed-os/rtos/TARGET_CORTEX/rtx4/cmsis_os.h mbed-os/rtos/Semaphore.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
- mbed-os/platform/mbed_debug.h mbed-os/platform/mbed_wait_api.h
+ mbed-os/platform/mbed_debug.h mbed-os/platform/mbed_wait_api.h \
+ mbed-os/rtos/Kernel.h

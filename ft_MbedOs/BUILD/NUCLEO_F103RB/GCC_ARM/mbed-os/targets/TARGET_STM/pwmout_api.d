@@ -69,7 +69,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/targets/TARGET_STM/pwmout_api.o: \
  mbed-os/platform/mbed_preprocessor.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
- mbed-os/hal/pinmap.h mbed-os/hal/pinmap.h mbed-os/platform/mbed_error.h \
+ mbed-os/hal/pinmap.h mbed-os/platform/mbed_error.h \
  mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/targets/TARGET_STM/PeripheralPins.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/pwmout_device.h

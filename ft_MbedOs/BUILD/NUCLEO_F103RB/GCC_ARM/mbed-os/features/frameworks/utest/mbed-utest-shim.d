@@ -1,8 +1,7 @@
 BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/frameworks/utest/mbed-utest-shim.o: \
  mbed-os/features/frameworks/utest/mbed-utest-shim.cpp \
  BUILD/NUCLEO_F103RB/GCC_ARM/mbed_config.h \
- mbed-os/platform/mbed_critical.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/mbed_preprocessor.h \
+ mbed-os/platform/mbed_critical.h \
  mbed-os/features/frameworks/utest/utest/utest.h \
  mbed-os/features/frameworks/utest/utest/utest_types.h \
  mbed-os/features/frameworks/utest/utest/utest_shim.h \
@@ -73,10 +72,10 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/frameworks/utest/mbed-utest-shim.o:
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/PeripheralNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/PinNames.h \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
+ mbed-os/platform/mbed_preprocessor.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
  mbed-os/platform/SingletonPtr.h mbed-os/platform/mbed_assert.h \
- mbed-os/platform/mbed_critical.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/features/frameworks/utest/utest/utest_case.h \
  mbed-os/features/frameworks/utest/utest/utest_default_handlers.h \
@@ -88,6 +87,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/frameworks/utest/mbed-utest-shim.o:
  mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/drivers/SerialBase.h \
  mbed-os/platform/Callback.h mbed-os/hal/serial_api.h \
- mbed-os/hal/pinmap.h mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
+ mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
  mbed-os/platform/NonCopyable.h mbed-os/platform/mbed_debug.h \
  mbed-os/platform/CThunk.h mbed-os/platform/CThunkBase.h

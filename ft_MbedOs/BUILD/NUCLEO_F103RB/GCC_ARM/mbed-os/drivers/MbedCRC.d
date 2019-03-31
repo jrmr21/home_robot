@@ -3,7 +3,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/drivers/MbedCRC.o: \
  mbed-os/drivers/TableCRC.h mbed-os/drivers/MbedCRC.h \
  mbed-os/hal/crc_api.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/mbed_preprocessor.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/SingletonPtr.h mbed-os/platform/mbed_critical.h \
+ mbed-os/platform/SingletonPtr.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/platform/PlatformMutex.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/rtos/Mutex.h \

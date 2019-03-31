@@ -68,5 +68,4 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/targets/TARGET_STM/analogin_api.o: \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/mbed_preprocessor.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
- mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
- mbed-os/hal/pinmap.h
+ mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h

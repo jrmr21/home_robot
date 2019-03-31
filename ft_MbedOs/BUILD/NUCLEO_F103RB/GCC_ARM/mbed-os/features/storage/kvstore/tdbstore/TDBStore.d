@@ -20,6 +20,5 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/storage/kvstore/tdbstore/TDBStore.o
  mbed-os/platform/mbed_retarget.h mbed-os/platform/mbed_wait_api.h \
  mbed-os/drivers/MbedCRC.h mbed-os/drivers/TableCRC.h \
  mbed-os/hal/crc_api.h mbed-os/platform/mbed_assert.h \
- mbed-os/platform/SingletonPtr.h mbed-os/platform/mbed_critical.h \
- mbed-os/platform/PlatformMutex.h \
+ mbed-os/platform/SingletonPtr.h mbed-os/platform/PlatformMutex.h \
  mbed-os/features/storage/system_storage/SystemStorage.h

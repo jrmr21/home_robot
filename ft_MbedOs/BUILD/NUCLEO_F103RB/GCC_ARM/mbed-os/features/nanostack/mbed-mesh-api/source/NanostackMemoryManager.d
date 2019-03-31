@@ -20,7 +20,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/source/Nano
  mbed-os/features/netsocket/WiFiInterface.h \
  mbed-os/features/netsocket/WiFiAccessPoint.h \
  mbed-os/features/netsocket/CellularBase.h \
- mbed-os/features/netsocket/CellularInterface.h \
  mbed-os/features/netsocket/MeshInterface.h \
  mbed-os/features/netsocket/Socket.h \
  mbed-os/features/netsocket/UDPSocket.h \
@@ -33,9 +32,8 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/source/Nano
  mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \
  mbed-os/targets/TARGET_STM/mbed_rtx.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/platform/ScopedLock.h \
- mbed-os/rtos/EventFlags.h mbed-os/platform/mbed_critical.h \
- mbed-os/features/netsocket/SocketStats.h mbed-os/platform/SingletonPtr.h \
- mbed-os/platform/mbed_critical.h mbed-os/platform/PlatformMutex.h \
+ mbed-os/rtos/EventFlags.h mbed-os/features/netsocket/SocketStats.h \
+ mbed-os/platform/SingletonPtr.h mbed-os/platform/PlatformMutex.h \
  mbed-os/features/netsocket/SocketAddress.h mbed-os/hal/ticker_api.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/objects.h \
@@ -123,7 +121,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/source/Nano
  mbed-os/features/mbedtls/inc/mbedtls/rsa.h \
  mbed-os/features/mbedtls/inc/mbedtls/ecdsa.h \
  mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crt.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509.h \
  mbed-os/features/mbedtls/inc/mbedtls/asn1.h \
@@ -138,5 +135,4 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/source/Nano
  mbed-os/features/netsocket/TLSSocket.h \
  mbed-os/features/netsocket/DTLSSocket.h \
  mbed-os/features/netsocket/DTLSSocketWrapper.h \
- mbed-os/features/netsocket/UDPSocket.h \
- mbed-os/features/netsocket/NetStackMemoryManager.h
+ mbed-os/features/netsocket/UDPSocket.h

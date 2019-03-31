@@ -34,7 +34,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/netsocket/DTLSSocket.o: \
  mbed-os/features/mbedtls/inc/mbedtls/rsa.h \
  mbed-os/features/mbedtls/inc/mbedtls/ecdsa.h \
  mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crt.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509.h \
  mbed-os/features/mbedtls/inc/mbedtls/asn1.h \
@@ -51,9 +50,8 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/netsocket/DTLSSocket.o: \
  mbed-os/features/netsocket/NetworkInterface.h \
  mbed-os/features/netsocket/nsapi_types.h \
  mbed-os/features/netsocket/DNS.h mbed-os/rtos/Mutex.h \
- mbed-os/platform/ScopedLock.h mbed-os/platform/mbed_critical.h \
- mbed-os/features/netsocket/SocketStats.h mbed-os/platform/SingletonPtr.h \
- mbed-os/platform/mbed_critical.h mbed-os/platform/PlatformMutex.h \
+ mbed-os/platform/ScopedLock.h mbed-os/features/netsocket/SocketStats.h \
+ mbed-os/platform/SingletonPtr.h mbed-os/platform/PlatformMutex.h \
  mbed-os/hal/ticker_api.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/objects.h \

@@ -74,11 +74,10 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/frameworks/utest/source/utest_shim.
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
  mbed-os/features/frameworks/utest/utest/utest_stack_trace.h \
  mbed-os/platform/SingletonPtr.h mbed-os/platform/mbed_assert.h \
- mbed-os/platform/mbed_critical.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/drivers/Timeout.h mbed-os/drivers/Ticker.h \
  mbed-os/drivers/TimerEvent.h mbed-os/hal/us_ticker_api.h \
  mbed-os/platform/NonCopyable.h mbed-os/platform/mbed_debug.h \
  mbed-os/platform/Callback.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/platform/mbed_power_mgmt.h mbed-os/hal/sleep_api.h \
- mbed-os/hal/lp_ticker_api.h
+ mbed-os/hal/lp_ticker_api.h mbed-os/platform/mbed_critical.h

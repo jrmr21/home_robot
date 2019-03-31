@@ -15,14 +15,12 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_host.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_local_socket.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_rf_tunnel.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_border_router.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_router.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
  mbed-os/features/frameworks/mbed-client-randlib/mbed-client-randlib/randLIB.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol_abstract.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_address_internal.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/address.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_buffer.h \
@@ -53,7 +51,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/ipv6.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/ipv6_constants.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/mld.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_socket.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/socket.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_error_types.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/sockbuf.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/ipv6_stack/protocol_ipv6.h \

@@ -4,7 +4,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/lwipstack/lwip/src/api/lwip_netdb.o
  mbed-os/features/lwipstack/lwip/src/include/lwip/netdb.h \
  mbed-os/features/lwipstack/lwip/src/include/lwip/opt.h \
  mbed-os/features/lwipstack/lwipopts.h \
- mbed-os/features/netsocket/nsapi_types.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/features/lwipstack/lwip-sys/lwip_random.h \
  mbed-os/features/lwipstack/lwip-sys/lwip_tcp_isn.h \

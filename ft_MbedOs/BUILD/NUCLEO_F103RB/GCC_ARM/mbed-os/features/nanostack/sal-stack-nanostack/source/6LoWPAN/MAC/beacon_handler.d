@@ -15,8 +15,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_host.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_local_socket.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_rf_tunnel.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_border_router.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/beacon_handler.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_phy.h \
@@ -26,7 +24,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/mac_common_defines.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_interface.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mac_helper.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_address_internal.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/address.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/load_balance/load_balance_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_load_balance_api.h \

@@ -15,7 +15,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/mbedtls/src/oid.o: \
  mbed-os/features/mbedtls/inc/mbedtls/ecp.h \
  mbed-os/features/mbedtls/inc/mbedtls/ecdsa.h \
  mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
- mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509.h \
  mbed-os/features/mbedtls/inc/mbedtls/rsa.h \
  mbed-os/features/mbedtls/inc/mbedtls/platform.h \

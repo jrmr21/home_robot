@@ -15,8 +15,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_host.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_local_socket.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_rf_tunnel.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_border_router.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_event.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
@@ -24,8 +22,8 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
  mbed-os/features/frameworks/mbed-client-randlib/mbed-client-randlib/randLIB.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/nsdynmemLIB.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_address_internal.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_socket.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/address.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/socket.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_error_types.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_buffer.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol_abstract.h \
@@ -62,11 +60,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/IPHC_Decode/iphc_decompress.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/lowpan_adaptation_interface.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/MLE/mle.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/mle_service/mle_service_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/ccmLIB.h \
- mbed-os/features/nanostack/sal-stack-nanostack/nanostack/platform/arm_hal_aes.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Common_Protocols/icmpv6_prefix.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_data.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_common.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/libDHCPv6/libDHCPv6.h \

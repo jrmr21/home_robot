@@ -18,5 +18,4 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/netsocket/NetworkStack.o: \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \
  mbed-os/targets/TARGET_STM/mbed_rtx.h mbed-os/platform/Callback.h \
  mbed-os/platform/NonCopyable.h mbed-os/platform/mbed_debug.h \
- mbed-os/events/mbed_shared_queues.h mbed-os/events/EventQueue.h \
- mbed-os/platform/mbed_error.h mbed-os/platform/mbed_retarget.h
+ mbed-os/events/mbed_shared_queues.h mbed-os/events/EventQueue.h

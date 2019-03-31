@@ -69,7 +69,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/targets/TARGET_STM/i2c_api.o: \
  mbed-os/targets/TARGET_STM/gpio_object.h \
  mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
- mbed-os/hal/pinmap.h mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
+ mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
  mbed-os/platform/mbed_wait_api.h mbed-os/hal/pinmap.h \
  mbed-os/targets/TARGET_STM/PeripheralPins.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/i2c_device.h

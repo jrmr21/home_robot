@@ -70,10 +70,9 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/drivers/I2C.o: \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
- mbed-os/hal/gpio_api.h mbed-os/hal/i2c_api.h mbed-os/hal/pinmap.h \
- mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
- mbed-os/platform/SingletonPtr.h mbed-os/platform/mbed_assert.h \
- mbed-os/platform/mbed_critical.h \
+ mbed-os/hal/gpio_api.h mbed-os/hal/i2c_api.h mbed-os/hal/buffer.h \
+ mbed-os/hal/dma_api.h mbed-os/platform/SingletonPtr.h \
+ mbed-os/platform/mbed_assert.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/platform/PlatformMutex.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/rtos/Mutex.h \
@@ -85,6 +84,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/drivers/I2C.o: \
  mbed-os/targets/TARGET_STM/mbed_rtx.h mbed-os/platform/ScopedLock.h \
  mbed-os/platform/CThunk.h mbed-os/platform/CThunkBase.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/Callback.h \
- mbed-os/drivers/DigitalInOut.h mbed-os/platform/mbed_wait_api.h \
- mbed-os/platform/mbed_power_mgmt.h mbed-os/hal/sleep_api.h \
- mbed-os/hal/ticker_api.h
+ mbed-os/drivers/DigitalInOut.h mbed-os/platform/mbed_critical.h \
+ mbed-os/platform/mbed_wait_api.h mbed-os/platform/mbed_power_mgmt.h \
+ mbed-os/hal/sleep_api.h mbed-os/hal/ticker_api.h

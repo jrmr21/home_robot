@@ -4,7 +4,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/platform/SingletonPtr.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/mbed_preprocessor.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/mbed_critical.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/platform/arm_hal_timer.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/platform/eventloop_config.h \
@@ -82,10 +81,10 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/nanostack-hal-mbed-cmsis-
  mbed-os/platform/mbed_debug.h mbed-os/platform/Callback.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_power_mgmt.h \
  mbed-os/hal/sleep_api.h mbed-os/hal/lp_ticker_api.h \
- mbed-os/drivers/Timer.h mbed-os/platform/platform.h \
- mbed-os/platform/mbed_retarget.h mbed-os/events/Event.h \
- mbed-os/events/EventQueue.h mbed-os/events/equeue/equeue.h \
- mbed-os/events/equeue/equeue_platform.h \
+ mbed-os/platform/mbed_critical.h mbed-os/drivers/Timer.h \
+ mbed-os/platform/platform.h mbed-os/platform/mbed_retarget.h \
+ mbed-os/events/Event.h mbed-os/events/EventQueue.h \
+ mbed-os/events/equeue/equeue.h mbed-os/events/equeue/equeue_platform.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \

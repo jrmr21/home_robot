@@ -16,7 +16,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/storage/kvstore/global_api/kvstore_
  mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \
  mbed-os/targets/TARGET_STM/mbed_rtx.h mbed-os/platform/ScopedLock.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/platform/SingletonPtr.h \
- mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_critical.h \
+ mbed-os/platform/mbed_assert.h \
  mbed-os/features/storage/blockdevice/BlockDevice.h \
  mbed-os/features/storage/filesystem/FileSystem.h \
  mbed-os/platform/platform.h mbed-os/platform/mbed_retarget.h \
