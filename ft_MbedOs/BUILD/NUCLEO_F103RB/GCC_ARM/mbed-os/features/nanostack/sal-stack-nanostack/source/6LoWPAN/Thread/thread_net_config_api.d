@@ -15,6 +15,8 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_host.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_local_socket.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_rf_tunnel.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_border_router.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/thread_net_config_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_management_client.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/thread_management_if.h \

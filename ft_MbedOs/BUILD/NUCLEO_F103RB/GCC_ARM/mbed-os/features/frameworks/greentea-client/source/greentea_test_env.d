@@ -75,9 +75,10 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/frameworks/greentea-client/source/g
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/drivers/SerialBase.h \
  mbed-os/platform/Callback.h mbed-os/platform/mbed_assert.h \
- mbed-os/hal/serial_api.h mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
- mbed-os/platform/NonCopyable.h mbed-os/platform/mbed_debug.h \
- mbed-os/platform/CThunk.h mbed-os/platform/CThunkBase.h \
- mbed-os/platform/SingletonPtr.h \
+ mbed-os/hal/serial_api.h mbed-os/hal/pinmap.h mbed-os/hal/buffer.h \
+ mbed-os/hal/dma_api.h mbed-os/platform/NonCopyable.h \
+ mbed-os/platform/mbed_debug.h mbed-os/platform/CThunk.h \
+ mbed-os/platform/CThunkBase.h mbed-os/platform/SingletonPtr.h \
+ mbed-os/platform/mbed_critical.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/features/frameworks/greentea-client/greentea-client/greentea_metrics.h

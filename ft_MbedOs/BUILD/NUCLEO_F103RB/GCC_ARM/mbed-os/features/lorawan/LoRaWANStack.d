@@ -11,7 +11,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/lorawan/LoRaWANStack.o: \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \
  mbed-os/targets/TARGET_STM/mbed_rtx.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/features/lorawan/LoRaWANStack.h \
- mbed-os/platform/ScopedLock.h \
+ mbed-os/platform/mbed_critical.h mbed-os/platform/ScopedLock.h \
  mbed-os/features/lorawan/lorastack/mac/LoRaMac.h \
  mbed-os/features/lorawan/lorastack/phy/LoRaPHY.h \
  mbed-os/features/lorawan/system/LoRaWANTimer.h \
@@ -80,14 +80,16 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/lorawan/LoRaWANStack.o: \
  mbed-os/features/lorawan/lorastack/mac/LoRaMacChannelPlan.h \
  mbed-os/features/lorawan/lorastack/mac/LoRaMacCommand.h \
  mbed-os/features/lorawan/lorastack/mac/LoRaMacCrypto.h \
- mbed-os/features/mbedtls/inc/mbedtls/aes.h \
  mbed-os/features/mbedtls/inc/mbedtls/config.h \
  mbed-os/features/mbedtls/platform/inc/platform_mbed.h \
  mbed-os/features/mbedtls/inc/mbedtls/config-no-entropy.h \
  mbed-os/features/mbedtls/inc/mbedtls/check_config.h \
+ mbed-os/features/mbedtls/inc/mbedtls/aes.h \
+ mbed-os/features/mbedtls/inc/mbedtls/config.h \
  mbed-os/features/mbedtls/inc/mbedtls/cmac.h \
- mbed-os/features/mbedtls/inc/mbedtls/cipher.h mbed-os/rtos/Mutex.h \
- mbed-os/rtos/TARGET_CORTEX/mbed_rtos1_types.h \
+ mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
+ mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
+ mbed-os/rtos/Mutex.h mbed-os/rtos/TARGET_CORTEX/mbed_rtos1_types.h \
  mbed-os/rtos/TARGET_CORTEX/rtx4/cmsis_os.h \
  mbed-os/features/lorawan/system/LoRaWANTimer.h \
  mbed-os/features/lorawan/system/lorawan_data_structures.h \

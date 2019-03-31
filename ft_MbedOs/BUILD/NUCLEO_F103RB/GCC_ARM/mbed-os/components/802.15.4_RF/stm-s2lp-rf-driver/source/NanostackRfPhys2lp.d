@@ -90,7 +90,8 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/components/802.15.4_RF/stm-s2lp-rf-driver/so
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \
  mbed-os/targets/TARGET_STM/mbed_rtx.h mbed-os/platform/ScopedLock.h \
- mbed-os/hal/spi_api.h mbed-os/hal/dma_api.h mbed-os/hal/buffer.h \
+ mbed-os/hal/spi_api.h mbed-os/hal/pinmap.h mbed-os/hal/dma_api.h \
+ mbed-os/hal/buffer.h mbed-os/drivers/DigitalOut.h \
  mbed-os/platform/SingletonPtr.h mbed-os/platform/CThunk.h \
  mbed-os/platform/CThunkBase.h mbed-os/platform/CircularBuffer.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/Transaction.h \

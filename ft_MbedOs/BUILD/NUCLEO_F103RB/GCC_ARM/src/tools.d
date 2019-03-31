@@ -30,12 +30,14 @@ BUILD/NUCLEO_F103RB/GCC_ARM/src/tools.o: src/tools.cpp \
  mbed-os/features/netsocket/WiFiInterface.h \
  mbed-os/features/netsocket/WiFiAccessPoint.h \
  mbed-os/features/netsocket/CellularBase.h \
+ mbed-os/features/netsocket/CellularInterface.h \
  mbed-os/features/netsocket/MeshInterface.h \
  mbed-os/features/netsocket/Socket.h \
  mbed-os/features/netsocket/UDPSocket.h \
  mbed-os/features/netsocket/InternetSocket.h \
+ mbed-os/platform/mbed_critical.h \
  mbed-os/features/netsocket/SocketStats.h mbed-os/platform/SingletonPtr.h \
- mbed-os/platform/PlatformMutex.h \
+ mbed-os/platform/mbed_critical.h mbed-os/platform/PlatformMutex.h \
  mbed-os/features/netsocket/SocketAddress.h mbed-os/hal/ticker_api.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/objects.h \
@@ -122,6 +124,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/src/tools.o: src/tools.cpp \
  mbed-os/features/mbedtls/inc/mbedtls/rsa.h \
  mbed-os/features/mbedtls/inc/mbedtls/ecdsa.h \
  mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
+ mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crt.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509.h \
  mbed-os/features/mbedtls/inc/mbedtls/asn1.h \
@@ -159,14 +162,14 @@ BUILD/NUCLEO_F103RB/GCC_ARM/src/tools.o: src/tools.cpp \
  mbed-os/platform/mbed_application.h mbed-os/platform/mbed_error.h \
  mbed-os/platform/mbed_interface.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/mbed_debug.h mbed-os/drivers/DigitalIn.h \
- mbed-os/hal/gpio_api.h mbed-os/platform/mbed_critical.h \
- mbed-os/drivers/DigitalOut.h mbed-os/drivers/DigitalInOut.h \
- mbed-os/drivers/BusIn.h mbed-os/drivers/DigitalIn.h \
- mbed-os/drivers/BusOut.h mbed-os/drivers/DigitalOut.h \
- mbed-os/drivers/BusInOut.h mbed-os/drivers/DigitalInOut.h \
- mbed-os/drivers/PortIn.h mbed-os/hal/port_api.h \
- mbed-os/drivers/PortInOut.h mbed-os/drivers/PortOut.h \
- mbed-os/drivers/AnalogIn.h mbed-os/hal/analogin_api.h \
+ mbed-os/hal/gpio_api.h mbed-os/drivers/DigitalOut.h \
+ mbed-os/drivers/DigitalInOut.h mbed-os/drivers/BusIn.h \
+ mbed-os/drivers/DigitalIn.h mbed-os/drivers/BusOut.h \
+ mbed-os/drivers/DigitalOut.h mbed-os/drivers/BusInOut.h \
+ mbed-os/drivers/DigitalInOut.h mbed-os/drivers/PortIn.h \
+ mbed-os/hal/port_api.h mbed-os/drivers/PortInOut.h \
+ mbed-os/drivers/PortOut.h mbed-os/drivers/AnalogIn.h \
+ mbed-os/hal/analogin_api.h mbed-os/hal/pinmap.h \
  mbed-os/drivers/AnalogOut.h mbed-os/drivers/PwmOut.h \
  mbed-os/hal/pwmout_api.h mbed-os/platform/mbed_power_mgmt.h \
  mbed-os/hal/sleep_api.h mbed-os/drivers/Serial.h \
@@ -201,4 +204,4 @@ BUILD/NUCLEO_F103RB/GCC_ARM/src/tools.o: src/tools.cpp \
  mbed-os/hal/mpu_api.h mbed-os/platform/ScopedRamExecutionLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- mbed-os/rtos/rtos.h
+ mbed-os/rtos/rtos.h mbed-os/rtos/Queue.h

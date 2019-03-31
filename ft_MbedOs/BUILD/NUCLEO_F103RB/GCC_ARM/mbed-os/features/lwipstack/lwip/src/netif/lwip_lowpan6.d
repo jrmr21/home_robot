@@ -5,6 +5,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/lwipstack/lwip/src/netif/lwip_lowpa
  mbed-os/features/lwipstack/lwip/src/include/netif/lowpan6_opts.h \
  mbed-os/features/lwipstack/lwip/src/include/lwip/opt.h \
  mbed-os/features/lwipstack/lwipopts.h \
+ mbed-os/features/netsocket/nsapi_types.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/features/lwipstack/lwip-sys/lwip_random.h \
  mbed-os/features/lwipstack/lwip-sys/lwip_tcp_isn.h \

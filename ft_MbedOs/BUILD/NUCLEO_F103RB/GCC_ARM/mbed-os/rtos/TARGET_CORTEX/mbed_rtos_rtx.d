@@ -64,4 +64,4 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtos_rtx.o: \
  mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
  mbed-os/platform/mbed_error.h mbed-os/platform/mbed_retarget.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_critical.h \
- mbed-os/rtos/TARGET_CORTEX/mbed_boot.h
+ mbed-os/platform/mbed_toolchain.h mbed-os/rtos/TARGET_CORTEX/mbed_boot.h

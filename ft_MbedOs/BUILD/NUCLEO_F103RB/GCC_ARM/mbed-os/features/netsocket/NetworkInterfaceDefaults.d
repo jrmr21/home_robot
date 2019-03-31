@@ -13,4 +13,5 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/netsocket/NetworkInterfaceDefaults.
  mbed-os/features/netsocket/WiFiInterface.h \
  mbed-os/features/netsocket/WiFiAccessPoint.h \
  mbed-os/features/netsocket/CellularBase.h \
+ mbed-os/features/netsocket/CellularInterface.h \
  mbed-os/features/netsocket/MeshInterface.h

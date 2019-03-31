@@ -71,4 +71,5 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/drivers/SPISlave.o: \
  mbed-os/platform/mbed_toolchain.h mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
  mbed-os/platform/NonCopyable.h mbed-os/platform/mbed_debug.h \
- mbed-os/hal/spi_api.h mbed-os/hal/dma_api.h mbed-os/hal/buffer.h
+ mbed-os/hal/spi_api.h mbed-os/hal/pinmap.h mbed-os/hal/dma_api.h \
+ mbed-os/hal/buffer.h

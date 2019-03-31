@@ -4,4 +4,5 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/components/802.15.4_RF/mcr20a-rf-driver/sour
  mbed-os/components/802.15.4_RF/mcr20a-rf-driver/source/MCR20Drv.h \
  mbed-os/components/802.15.4_RF/mcr20a-rf-driver/source/MCR20Reg.h \
  mbed-os/components/802.15.4_RF/mcr20a-rf-driver/source/XcvrSpi.h \
- mbed-os/platform/mbed_critical.h
+ mbed-os/platform/mbed_critical.h mbed-os/platform/mbed_toolchain.h \
+ mbed-os/platform/mbed_preprocessor.h

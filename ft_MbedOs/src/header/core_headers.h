@@ -3,6 +3,7 @@
 
 #include "mbed.h"
 #include "rtos.h" 
+#include <Queue.h>
 
 //**********	pinout		********
 
@@ -20,9 +21,9 @@
 //**********	task.cpp	*********
 
 void    tsk_blink(void);
-void	tsk_cam(Serial *pc);
-
-
+void	tsk_cam(void);
+void	tsk_Serial1(Serial *pc);
+void	tsk_Serial2(Serial *pc);
 
 
 //**********	motor.cpp	*********

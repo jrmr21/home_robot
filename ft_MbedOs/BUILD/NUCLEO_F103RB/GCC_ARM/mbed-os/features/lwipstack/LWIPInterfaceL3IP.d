@@ -11,7 +11,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/lwipstack/LWIPInterfaceL3IP.o: \
  mbed-os/features/lwipstack/lwip/src/include/lwip/debug.h \
  mbed-os/features/lwipstack/lwip/src/include/lwip/arch.h \
  mbed-os/features/lwipstack/lwip-sys/arch/cc.h \
- mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/device/cmsis.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/device/stm32f1xx.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/TARGET_NUCLEO_F103RB/device/stm32f103xb.h \
@@ -103,12 +102,13 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/lwipstack/LWIPInterfaceL3IP.o: \
  mbed-os/features/lwipstack/lwip/src/include/lwip/ethip6.h \
  mbed-os/features/netsocket/nsapi_types.h \
  mbed-os/features/netsocket/L3IP.h mbed-os/platform/Callback.h \
- mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/mbed_toolchain.h \
+ mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_preprocessor.h \
+ mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_toolchain.h \
  mbed-os/features/netsocket/NetStackMemoryManager.h \
  mbed-os/features/netsocket/nsapi.h \
  mbed-os/features/netsocket/nsapi_types.h \
  mbed-os/features/netsocket/SocketAddress.h \
+ mbed-os/platform/mbed_toolchain.h \
  mbed-os/features/netsocket/NetworkStack.h \
  mbed-os/features/netsocket/NetworkInterface.h \
  mbed-os/features/netsocket/DNS.h \

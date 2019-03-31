@@ -6,5 +6,6 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/mbedtls/src/ecp_curves.o: \
  mbed-os/features/mbedtls/inc/mbedtls/config-no-entropy.h \
  mbed-os/features/mbedtls/inc/mbedtls/check_config.h \
  mbed-os/features/mbedtls/inc/mbedtls/ecp.h \
+ mbed-os/features/mbedtls/inc/mbedtls/config.h \
  mbed-os/features/mbedtls/inc/mbedtls/bignum.h \
- mbed-os/features/mbedtls/inc/mbedtls/config.h
+ mbed-os/features/mbedtls/inc/mbedtls/platform_util.h

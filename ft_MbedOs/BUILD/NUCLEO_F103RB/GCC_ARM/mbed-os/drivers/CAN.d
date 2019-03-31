@@ -70,7 +70,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/drivers/CAN.o: \
  mbed-os/targets/TARGET_STM/gpio_object.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/mbed_toolchain.h mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
- mbed-os/hal/can_api.h mbed-os/hal/can_helper.h \
+ mbed-os/hal/can_api.h mbed-os/hal/pinmap.h mbed-os/hal/can_helper.h \
  mbed-os/platform/Callback.h mbed-os/platform/mbed_assert.h \
  mbed-os/platform/PlatformMutex.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/rtos/Mutex.h \

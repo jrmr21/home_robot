@@ -71,9 +71,9 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/drivers/SerialBase.o: \
  mbed-os/platform/mbed_toolchain.h mbed-os/targets/TARGET_STM/PortNames.h \
  mbed-os/targets/TARGET_STM/TARGET_STM32F1/device/stm32f1xx_ll_usart.h \
  mbed-os/platform/Callback.h mbed-os/platform/mbed_assert.h \
- mbed-os/hal/serial_api.h mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
- mbed-os/platform/NonCopyable.h mbed-os/platform/mbed_debug.h \
- mbed-os/platform/CThunk.h mbed-os/platform/CThunkBase.h \
- mbed-os/platform/mbed_wait_api.h mbed-os/platform/mbed_critical.h \
- mbed-os/platform/mbed_power_mgmt.h mbed-os/hal/sleep_api.h \
- mbed-os/hal/ticker_api.h
+ mbed-os/hal/serial_api.h mbed-os/hal/pinmap.h mbed-os/hal/buffer.h \
+ mbed-os/hal/dma_api.h mbed-os/platform/NonCopyable.h \
+ mbed-os/platform/mbed_debug.h mbed-os/platform/CThunk.h \
+ mbed-os/platform/CThunkBase.h mbed-os/platform/mbed_wait_api.h \
+ mbed-os/platform/mbed_critical.h mbed-os/platform/mbed_power_mgmt.h \
+ mbed-os/hal/sleep_api.h mbed-os/hal/ticker_api.h

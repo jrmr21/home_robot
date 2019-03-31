@@ -15,6 +15,8 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_lowpan_host.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_local_socket.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_rf_tunnel.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_border_router.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/configs/base/cfg_ws_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_scheduler.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_trace.h \
  mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
@@ -24,7 +26,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/NWK_INTERFACE/Include/protocol_abstract.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/address.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_address_internal.h \
  mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_list.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_buffer.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/ipv6_stack/ipv6_routing_table.h \
@@ -42,7 +44,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/pan_blacklist/pan_blacklist_api.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Service_Libs/mac_neighbor_table/mac_neighbor_table.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/net_polling_api.h \
- mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/socket.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_socket.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/ns_error_types.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/Core/include/sockbuf.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/RPL/rpl_of0.h \
@@ -99,6 +101,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/features/nanostack/sal-stack-nanostack/sourc
  mbed-os/features/nanostack/sal-stack-nanostack-eventloop/nanostack-event-loop/eventOS_event.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/Thread/thread_management_internal.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_bootstrap.h \
+ mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/ws/ws_pae_controller.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/BorderRouter/border_router.h \
  mbed-os/features/nanostack/sal-stack-nanostack/source/6LoWPAN/MAC/mac_data_poll.h \
  mbed-os/features/nanostack/sal-stack-nanostack/nanostack/sw_mac.h \

@@ -73,7 +73,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/rtos/TARGET_CORTEX/mbed_rtx_idle.o: \
  mbed-os/hal/ticker_api.h mbed-os/drivers/TimerEvent.h \
  mbed-os/hal/us_ticker_api.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/hal/lp_ticker_api.h \
- mbed-os/platform/mbed_critical.h \
+ mbed-os/hal/us_ticker_api.h mbed-os/platform/mbed_critical.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \

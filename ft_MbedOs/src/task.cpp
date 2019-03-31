@@ -1,7 +1,7 @@
 #include "header/core_headers.h"
 
 //	Threads declaration in main.cpp
-
+extern Queue<char, 8>		QSerial;
 
 void	tsk_blink(void) 
 {
@@ -16,43 +16,62 @@ void	tsk_blink(void)
 }
 
 
-void	tsk_cam(Serial *pc)
+void	tsk_cam(void)
 {
-	int pos;
-	char command[5]; 	
+	int	posX;
+	int	posY;
+	char	*data;
 
-	pos = 0;	
 	
-
 	PwmOut cam1(SERVO_CAM1);
 	cam1.pulsewidth_us(1500); 	//NB in microseconds	
 		
 	PwmOut cam2(SERVO_CAM2);
 	cam2.pulsewidth_us(1500);	
 
-	pos =  mapping(90, 0, 180, 1000, 2000);
+	posX =  mapping(90, 0, 180, 1000, 2000);
+	posY = posX;
 
-
-	cam2.pulsewidth_us(pos);	// 1000 to 2000
+	cam2.pulsewidth_us(posX);	// 1000 to 2000
 	Thread::wait(100);	
 
-	cam1.pulsewidth_us(pos);	// 1000 to 2000
+	cam1.pulsewidth_us(posY);	// 1000 to 2000
 	Thread::wait(100);	
 
 	while (1)
 	{
-		if (pc->readable())
+		osEvent QData = QSerial.get();
+		if (QData.status == osEventMessage)
+			data = (char *)QData.value.p;
+		
+		if ((atoi(data + 1) > -1) && (atoi(data + 1) < 181))
 		{
-			int x;
-
-			x = 0;
-			pc->scanf("%s", command);
-			x = atoi(command + 1);			// clear 'x' or 'y'
-			pos =  mapping(x, 0, 180, 1000, 2000);
+			if (data[0] == 'x')
+				posX = mapping(atoi(data + 1), 0, 180, 1000, 2000);
+			else if(data[0] == 'y')
+				posY = mapping(atoi(data + 1), 0, 180, 1000, 2000);
 			
-			cam2.pulsewidth_us(pos);        // 1000 to 2000
- 			Thread::wait(100);  
-		}	
-		Thread::wait(10);
+		}
+	
+		cam2.pulsewidth_us(posY);        // 1000 to 2000
+		cam1.pulsewidth_us(posX);        // 1000 to 2000	
+
+		Thread::wait(100);
+	}
+}
+
+void	tsk_Serial2(Serial *pc)
+{
+	char	data[20];
+	
+	strcpy(data, "\0");
+	while (1)
+	{
+		pc->scanf("%s", data);
+		pc->printf(data);
+		
+		//if (data[0] == 'x' || data[0] == 'y')
+			QSerial.put(data);	// send data
+		Thread::wait(50);
 	}
 }

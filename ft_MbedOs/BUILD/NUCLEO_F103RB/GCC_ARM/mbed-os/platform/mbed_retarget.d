@@ -73,6 +73,7 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/platform/mbed_retarget.o: \
  mbed-os/platform/FilePath.h mbed-os/platform/FileSystemLike.h \
  mbed-os/platform/FileSystemHandle.h mbed-os/platform/FileBase.h \
  mbed-os/platform/SingletonPtr.h mbed-os/platform/mbed_assert.h \
+ mbed-os/platform/mbed_critical.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
  mbed-os/platform/PlatformMutex.h mbed-os/platform/NonCopyable.h \
  mbed-os/platform/mbed_debug.h mbed-os/rtos/Mutex.h \
@@ -85,10 +86,10 @@ BUILD/NUCLEO_F103RB/GCC_ARM/mbed-os/platform/mbed_retarget.o: \
  mbed-os/platform/FileHandle.h mbed-os/platform/Callback.h \
  mbed-os/platform/mbed_poll.h mbed-os/platform/DirHandle.h \
  mbed-os/platform/FileLike.h mbed-os/hal/serial_api.h \
- mbed-os/hal/buffer.h mbed-os/hal/dma_api.h mbed-os/hal/us_ticker_api.h \
- mbed-os/hal/ticker_api.h mbed-os/platform/mbed_semihost_api.h \
- mbed-os/platform/mbed_interface.h mbed-os/platform/mbed_error.h \
- mbed-os/platform/mbed_stats.h mbed-os/platform/mbed_critical.h \
+ mbed-os/hal/pinmap.h mbed-os/hal/buffer.h mbed-os/hal/dma_api.h \
+ mbed-os/hal/us_ticker_api.h mbed-os/hal/ticker_api.h \
+ mbed-os/platform/mbed_semihost_api.h mbed-os/platform/mbed_interface.h \
+ mbed-os/platform/mbed_error.h mbed-os/platform/mbed_stats.h \
  mbed-os/drivers/UARTSerial.h mbed-os/drivers/SerialBase.h \
  mbed-os/platform/Callback.h mbed-os/platform/CThunk.h \
  mbed-os/platform/CThunkBase.h mbed-os/drivers/InterruptIn.h \
