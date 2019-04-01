@@ -2,6 +2,7 @@
 
 //	Threads declaration in main.cpp
 extern Queue<char, 8>		QSerial;
+extern Queue<char, 8>		QMotor;
 
 void	tsk_blink(void) 
 {
@@ -32,10 +33,10 @@ void	tsk_cam(void)
 	posX =  mapping(90, 0, 180, 1000, 2000);
 	posY = posX;
 
-	cam2.pulsewidth_us(posX);	// 1000 to 2000
+	cam2.pulsewidth_us(posY);	// 1000 to 2000
 	Thread::wait(100);	
 
-	cam1.pulsewidth_us(posY);	// 1000 to 2000
+	cam1.pulsewidth_us(posX);	// 1000 to 2000
 	Thread::wait(100);	
 
 	while (1)
@@ -48,7 +49,7 @@ void	tsk_cam(void)
 		{
 			if (data[0] == 'x')
 				posX = mapping(atoi(data + 1), 0, 180, 1000, 2000);
-			else if(data[0] == 'y')
+			else
 				posY = mapping(atoi(data + 1), 0, 180, 1000, 2000);
 			
 		}
@@ -56,7 +57,25 @@ void	tsk_cam(void)
 		cam2.pulsewidth_us(posY);        // 1000 to 2000
 		cam1.pulsewidth_us(posX);        // 1000 to 2000	
 
-		Thread::wait(100);
+		Thread::wait(200);
+	}
+}
+
+
+void	tsk_motor(void)
+{
+	char	*data;
+
+	data = "\0";
+	MotorD_init();
+	
+	while (1)
+	{
+		MotorD_avant(10);	
+		Thread::wait(500);
+
+		MotorD_stop();
+		Thread::wait(1000);
 	}
 }
 
@@ -72,6 +91,6 @@ void	tsk_Serial2(Serial *pc)
 		
 		//if (data[0] == 'x' || data[0] == 'y')
 			QSerial.put(data);	// send data
-		Thread::wait(50);
+		Thread::wait(100);
 	}
 }

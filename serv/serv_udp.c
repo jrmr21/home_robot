@@ -3,13 +3,7 @@
 #include <unistd.h>
 
 
-#ifdef WIN32    /*sous windows*/
-
-#include <winsock2.h>
-WSADATA WSAData;        /*  objet   WSADATA */
-#define error -1
-
-#elif defined(linux)
+#if defined(linux)
 
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -66,33 +60,33 @@ int main()
         }
         else
         {
-            char buffer[15];
-            buffer[15]='\0';
+            char buffer[10];
             
 		printf("succes bind \n");
             do
             {
                 int taille;                        //   taille des sockets reçus
-                taille = sizeof(ssin);                  //  affectation de la taille
-		strcpy(buffer, "\0");
 
-            	if(recvfrom != error)                                        //  sock -1 = error ou fin socket
-                	printf("la socket est : %d \n",sock);
-                recvfrom(sock, buffer, sizeof(buffer)-1, 0,((SOCKADDR*)&ssin), &taille);         //  lecture du msg
+                taille		= sizeof(ssin);                  //  affectation de la taille
+		
+		strcpy(command, "\0");
+		strcpy(buffer, "\0");
+            	//if(recvfrom != error)                                        //  sock -1 = error ou fin socket
+                //	printf("la socket est : %d \n",sock);
+                
+		recvfrom(sock, buffer, sizeof(buffer), 0,((SOCKADDR*) &ssin), &taille);         //  lecture du msg
 
                 printf("le msg est %s \n", buffer);
+		
 		strcpy(command, "echo '");
 		strcat(command, buffer);
 		strcat(command, "' > /dev/ttyUSB0");
 		system(command);		
                    // sendto(sock, bufferS, sizeof(bufferS), 0,((SOCKADDR*)&ssin), sizeof(ssin));        //  send confirmation de reception
 
-            }while(strcmp(buffer, "1005") != 0);             //  tant que l'ecoute est ok on attend
+            } while(strcmp(buffer, "1005") != 0);             //  tant que l'ecoute est ok on attend
 
             closesocket(sock);      //  fin socket
         }
     }
-#ifdef WIN32    /*sous windows*/
-WSACleanup();       //  netoie l'initialisation de la librairies
-#endif
 }

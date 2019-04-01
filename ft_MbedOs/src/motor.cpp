@@ -1,7 +1,7 @@
 #include "header/core_headers.h"
 
-PwmOut MotorD0(D0);
-PwmOut MotorD1(D1);
+static PwmOut MotorD0(D0);
+static PwmOut MotorD1(D1);
 
 
 void	 MotorD_init(int time)

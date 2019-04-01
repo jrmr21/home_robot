@@ -14,7 +14,7 @@
 #define D1	PB_5	 	//  patte 2 motor D
 
 #define SERVO_CAM1	PA_8
-#define SERVO_CAM2	PB_1
+#define SERVO_CAM2	PA_11
 
 
 
@@ -22,7 +22,7 @@
 
 void    tsk_blink(void);
 void	tsk_cam(void);
-void	tsk_Serial1(Serial *pc);
+void	tsk_motor(void);
 void	tsk_Serial2(Serial *pc);
 
 
