@@ -1,9 +1,15 @@
 # home_robot
 personal robot
 
-to force pip use "sudo -H pip install <your package>"
+Is a future personnal robot:
+  you will be control with Internet.  (it's ready to move the camera)
+  it will be autonomous (i going to use an IR telemeter and a servo-motor, OpenCV with python to track humans (theirs faces)).
+  
 
-we have 2 Serial with stm32
 
-"ACM0" is serial communication		(Serial1)
-"USB0" is debug serial communication	(Serial2)
+"USB0" is serial communication	(Serial2)
+
+
+- video stream use motion package
+- the UDP server is C (use libraries C++) and send command with "system(char *)" in /dev/tty...
+- the OS of Nucleo is Mbed os 5
