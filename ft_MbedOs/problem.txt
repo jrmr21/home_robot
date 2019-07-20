@@ -5,6 +5,10 @@ export LC_ALL="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 sudo dpkg-reconfigure locales
 
-install gcc-arm
 
-http://marksolters.com/programming/2016/06/22/arm-toolchain-16-04.html
+install gcc-arm :
+ - http://marksolters.com/programming/2016/06/22/arm-toolchain-16-04.html
+
+
+pip FAIL (update > 10) :
+ - sudo -H pip install -U mbed-cli
