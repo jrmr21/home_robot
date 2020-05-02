@@ -1,26 +1,19 @@
-#include <ESP8266WiFi.h>
+#include "wifi.h"
 
-const char ssid[] = "jrmr_robot";
-const char password[] = "j*r*m*r";
-
-void setup() {
-  // on démarre le port série
+void setup() 
+{
   Serial.begin(115200);
-  // On attend "un peu" que le buffer soit prêt
-  delay(10);
-  // On efface la configuration précédente
-  WiFi.disconnect(true);
-  // Initialisation de la connection
-  WiFi.begin(ssid, password);
-  // Test pour déterminer quand la connection est prete
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-  }
-  // Affichage des informations
-  Serial.print("\nConnecte a ");
-  Serial.print(ssid);
-  Serial.print(" avec l'ip ");
-  Serial.println(WiFi.localIP());
+  wifi_connection();                                          // lance le serveur
+
+  delay(2000);
+  driver_init();
+  
+  packetBuffer[ENABLE_CASE] = 0;
 }
-void loop() {
+
+void loop()
+{
+    get_wifi_messageTabInt();
+    delay(100);
 }
+
